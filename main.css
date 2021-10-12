@@ -1,0 +1,25 @@
+
+body {
+    background-color: #40B5BC;
+}
+
+#app {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left, .right {
+    border: 2.2px solid black;
+    font-size: 12pt;
+    text-align: justify;
+    padding: 0.5em;
+
+}
+
+.left {
+    flex: 2 10px;
+}
+
+.right {
+    flex: 1 10px;
+}
