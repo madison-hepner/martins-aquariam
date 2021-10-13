@@ -1,6 +1,7 @@
 
 body {
     background-color: #40B5BC;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #app {
@@ -8,12 +9,29 @@ body {
     justify-content: space-evenly;
 }
 
+.header1 {
+    text-align: center;
+    font-weight: 100%;
+    font-size: 32pt;
+    padding: 0.5em;
+    background-image: url("https://media.istockphoto.com/photos/blue-ocean-water-surface-background-photo-picture-id866754168?k=20&m=866754168&s=612x612&w=0&h=mIpxiJhDgUMOv1tytCMpZ0Iz8qYt80-WYpHlqULiPu0=");
+    background-size: cover;
+}
+
 .left, .right {
     border: 2.2px solid black;
-    font-size: 12pt;
-    text-align: justify;
+    font-size: 15pt;
+    text-align: center;
     padding: 0.5em;
+    overflow: scroll;
+    height: 550px;
+    background-color: #40B5BC;
 
+}
+
+.fish-info {
+    font-size: 13pt;
+    flex-wrap: wrap;
 }
 
 .left {
@@ -22,4 +40,74 @@ body {
 
 .right {
     flex: 1 10px;
+}
+
+.fish1 {
+    font-size: 20pt;
+    background-color: #B1D4E0;
+    padding: 0.3em;
+}
+
+.fish2 {
+    font-size: 20pt;
+    background-color: #B1D4E0;
+    padding: 0.3em;
+}
+
+.fish3 {
+    font-size: 20pt;
+    background-color: #B1D4E0;
+    padding: 0.3em;
+}
+
+.fish4 {
+    font-size: 20pt;
+    background-color: #B1D4E0;
+    padding: 0.3em;
+}
+
+.quotes1 {
+    font-size: 20pt;
+    background-color: #B1D4E0;
+    padding: 0.3em;
+}
+
+.flameAngelFish {
+    padding: 0.5em;
+}
+
+.blueTang {
+    padding: 0.5em;
+}
+
+.japAngel {
+    padding: 0.5em;
+}
+
+.manFish {
+    padding: 0.5em;
+}
+
+#flameangel--img {
+    height: 200px;
+    width: 300px;
+    padding: 0.1em;
+}
+
+#bluetang--img {
+    height: 250px;
+    width: 300px;
+    padding: 0.1em;
+}
+
+#japangel--img {
+    height: 200px;
+    width: 300px;
+    padding: 0.1em;
+}
+
+#manfish--img {
+    height: 200px;
+    width: 300px;
+    padding: 0.1em;
 }
